@@ -1,0 +1,97 @@
+.google,
+.lucky {
+  box-sizing: content-box;
+  position: relative;
+  width: 120px;
+  height: 30px;
+  top: 50%;
+  left: 1%;
+  border:1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+  background-color: #e8ebef;
+  color: #6b6d70;
+}
+.search {
+  position: relative;
+  width: 550px;
+  height: 29px;
+  right: 25%;
+  border: solid 1px lightgrey;
+  box-shadow: 3px 3px 4px #e8ebef;
+  white-space: 50%;
+  font-size: 15px;
+  padding:5px;
+  padding-bottom:3px;
+}
+.logo {
+  padding-bottom: 15px;
+}
+.main {
+  position: fixed;
+  top: 42%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -130px;
+}
+.left {
+  position: fixed;
+  bottom: 0px;
+  right: 70%;
+  padding: 0px;
+}
+.right {
+  position: fixed;
+  bottom: 0px;
+  left:65%
+}
+.tright {
+  position: fixed;
+ left: 64%
+}
+.tleft {
+  position: fixed;
+  right: 75%;
+}
+li {
+  float: left;
+  width: 65px;
+  display: block;
+  padding:4px;
+  text-align:center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display:block;
+  padding: 8px;
+  width: 65px;
+}
+nav {
+  font-family:'Roboto', sans-serif;
+  font-size:14px;
+  display:block;
+  text-decoration: none;
+}
+.busy{
+  padding-left:35px;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.google:hover {
+  color: black;
+  border: solid .5px;
+}
+
+.lucky:hover {
+  color: black;
+  border: solid .5px;
+}
+.search:hover {
+  box-shadow:5px 5px 5px #e8ebef;
+}

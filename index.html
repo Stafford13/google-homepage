@@ -1,27 +1,62 @@
 <html>
-<header>
-  <div>
-    <a>About</a>
-    <a>Store</a>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul class="tleft">
+        <li><a>About</a></li>
+        <li><a>Store</a></li>
+      </ul>
+      <ul class="tright">
+        <li><a>Gmail</a></li>
+        <li><a>Images</a></li>
+        <li><i class="material-icons">apps</i></li>
+        <li><i class="material-icons">
+stars</i></li>
+      </ul>
+    </div>
   </div>
-  <div>
-    <a>Gmail</a>
-    <a>Images</a>
-    <a>Options</a>
-    <a>Account</a>
   </div>
-</header>
+</nav>
 
 <body>
-  <div><img src=https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg alt="Google home image"></div>
-  <div>
-    <form action="#" method=GET>
-  </div>
-  <input type="text" name="search bar"></input><br>
-  <div> <input type="submit" name="google" value="Google Search">
-    <input type="submit" name="lucky" value="I'm Feeling Lucky">
-  </div>
+  <div class="main">
+    <div class="logo"><img src=https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg alt="Google home image"></div>
+    <div>
+      <form action="#" method=GET>
+        <div>
+          <input type="text" name="search bar" class="search"></input>
+        </div><br>
+        <div>
+          <input type="submit" name="google" class="google" value="Google Search">
+          <input type="submit" name="lucky" class="lucky" value="I'm Feeling Lucky">
+        </div>
+    </div>
 </body>
-<footer></footer>
+<footer>
+  <nav class="navbar navbar-fixed-footer">
+    <div class="container-fluid">
+      <div class="navbar-footer">
+        <div>
+          <ul class="left">
+           <li><a>Advertising</a></li>
+           <li><a class="busy">Business</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="right">
+            <li><a>Privacy</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Settings</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
 
 </html>
